@@ -10,3 +10,5 @@ passlib
 tox
 fake-useragent
 gunicorn
+coverage
+codecov

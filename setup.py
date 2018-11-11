@@ -18,7 +18,9 @@ setup(
         'python-dotenv',
         'passlib',
         'fake-useragent',
-        'gunicorn'
+        'gunicorn',
+        'coverage',
+        'codecov'
     ],
     entry_points={
         'console_scripts': [
