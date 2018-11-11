@@ -17,7 +17,8 @@ setup(
         'marshmallow-sqlalchemy',
         'python-dotenv',
         'passlib',
-        'fake-useragent'
+        'fake-useragent',
+        'gunicorn'
     ],
     entry_points={
         'console_scripts': [
