@@ -34,7 +34,8 @@ jobs:
             . venv/bin/activate
             tox
 
-      - upload_codecov:
+      - run:
+          name: Upload tests coverage
           command: |
             . venv/bin/activate
             coverage run test
