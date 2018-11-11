@@ -3,4 +3,4 @@ def test_get_medium(client):
     resp = client.post('api/v1/medium/articles', json=data)
     assert resp.status_code == 200
     data = resp.get_json()
-    assert 'm4a' in data['mp4']
+    assert 'm4a' in data['audioVersionUrl']
