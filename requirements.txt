@@ -12,3 +12,4 @@ fake-useragent
 gunicorn
 coverage
 codecov
+pytest_cov

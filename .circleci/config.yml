@@ -38,7 +38,7 @@ jobs:
           name: Upload tests coverage
           command: |
             . venv/bin/activate
-            coverage run test
+            coverage run tests
             codecov
 
       - store_artifacts:

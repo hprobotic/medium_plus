@@ -20,7 +20,8 @@ setup(
         'fake-useragent',
         'gunicorn',
         'coverage',
-        'codecov'
+        'codecov',
+        'pytest_cov'
     ],
     entry_points={
         'console_scripts': [
